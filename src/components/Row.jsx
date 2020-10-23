@@ -5,7 +5,7 @@ import movieTrailer from 'movie-trailer';
 
 import "./Row.css";
 
-const base_url = "http://image.tmdb.org/t/p/original"
+const base_url = "https://image.tmdb.org/t/p/w500"
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
